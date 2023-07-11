@@ -162,11 +162,9 @@ cursor: pointer;
  @media (max-width:500px) {
     .search input{
       max-width:80%;
+      font-size:small;
      }
-     .search button{
-        width:50%;
-        height:50%;
-     }
+   
      
  }
 
