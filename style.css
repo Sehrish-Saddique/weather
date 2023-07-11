@@ -164,13 +164,40 @@ cursor: pointer;
       max-width:80%;
       font-size:small;
      }
-   
+     
+     
+ }
+ @media (max-width:400px) {
+    .card h1{
+        font-size: 18px;
+      }
+      .card h2{
+        font-size: 28px;
+      }
+     .card .col {
+        padding:0;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+
+     }
+    .search input ,button img{
+        display:flex;
+        flex-direction: column;
+     }
+     .search button{
+        margin-left:-10px;
+        padding:20px;
+
+     }
+      
      
  }
 
+
 @media (min-width:800px) {
     .contactform{
- 
         background-color: transparent;
         color:white;
         padding:120px;
