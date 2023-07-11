@@ -99,3 +99,14 @@ cursor: pointer;
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width:500px) {
+   .search{
+    flex-direction: column;
+ 
+   }
+   .search input{
+    padding:20px;
+    margin-bottom: 20px;
+   }
+}
