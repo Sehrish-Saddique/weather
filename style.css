@@ -104,16 +104,18 @@ cursor: pointer;
   
 
 .navbar{
-    top:0;
+    
     background:linear-gradient(135deg,#00feba,#5b548a) ;
 
 } 
      
   .contactform{
- 
+    color:#222;
     background-color: transparent;
-    color:white;
-    padding:20px;
+     padding:20px;
+    width:100%;
+    text-align: left;
+ 
   }
   .footer{
     background: #222;
@@ -199,9 +201,7 @@ cursor: pointer;
 @media (min-width:800px) {
     .contactform{
         background-color: transparent;
-        color:white;
-        padding:120px;
-      }
+         }
      
  }
  
@@ -212,4 +212,13 @@ cursor: pointer;
         justify-content: center;  
         }
       
+ }
+
+ /* Home--------------------------------------> */
+ .major-card{
+     border:solid black; 
+    background: transparent;
+    border-inline-end-color: #ebfffc;
+    border-radius: 20px;
+    display:flex;
  }
